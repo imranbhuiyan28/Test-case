@@ -144,7 +144,10 @@ def verify_cart_product(context):
 
 
 
-
+@given("open url")
+def open_url(context):
+    context.app.base_page.open_url("https://www.google.com/")
+    sleep(5)
 
 
 

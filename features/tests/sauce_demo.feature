@@ -23,3 +23,6 @@ Feature: Saucedemo website test
     When  fill up the information
     Then   verify the page
     And    click finish
+
+
+
